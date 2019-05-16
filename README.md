@@ -1,6 +1,6 @@
 # QRCodeEncoder
 The QR Code Encoder library allows your program to create (encode) QR Code image. The encoder solution targets .NET framework (net462) and .NET standard (netstandard2.0). It is writen in C# for Visual Studio.
-For full article go to https://www.codeproject.com/Articles/1250071/QR-Code-Encoder-and-Decoder-NET-class-library-writ
+For full article go to <a href="https://www.codeproject.com/Articles/1250071/QR-Code-Encoder-and-Decoder-NET-class-library-writ">QR Code Encoder and Decoder .NET(Framework, Standard, Core) Class Library Written in C# (Ver. 2.0.0)</a>
 
 The QRCodeEncoder is made of three projects:
 
