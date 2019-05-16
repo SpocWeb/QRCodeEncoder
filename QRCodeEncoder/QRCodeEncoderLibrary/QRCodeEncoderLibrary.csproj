@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net462;netstandard2.0</TargetFrameworks>
+    <Version>2.0.0</Version>
+    <Authors>Uzi Granot</Authors>
+    <Description>QRCode Encoder Library for .Net Framework and .Net Standard</Description>
+    <Copyright>Copyright (c) 2018 Uzi Granot All rights Reserved</Copyright>
+    <PackageLicenseFile>CPOL.htm</PackageLicenseFile>
+    <PackageProjectUrl>https://www.codeproject.com/Articles/1250071/QR-Code-Encoder-and-Decoder-NET-class-library-writ</PackageProjectUrl>
+    <PackageTags>QRCode, C#, NET Standard, NET Framework, Barcode, Library</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net462|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>D:\CSharp2017\QRCode\QRCodeEncoder\QRCodeEncoderLibrary\QRCodeEncoderLibrary.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Documents\CPOL.htm">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
